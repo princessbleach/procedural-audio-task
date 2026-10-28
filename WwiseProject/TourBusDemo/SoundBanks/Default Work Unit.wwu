@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A700B907-BD05-496C-A13D-011DA877A77A}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{A700B907-BD05-496C-A13D-011DA877A77A}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{A77ADA59-60BB-468D-A045-A7B0DB103373}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ClubBoom" ID="{752F2C9B-A9A3-4268-8CC8-976F8394F87D}" WorkUnitID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CarDrive" ID="{E496E8FC-78F8-4602-B1AE-69F11E6A761E}" WorkUnitID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CarRev" ID="{F5B7CE4F-82E9-4699-A9A1-2A856D8181CE}" WorkUnitID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TourbusMusic" ID="{13FC0936-37DB-46A2-B6B5-F82356D7E9BD}" WorkUnitID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crowd" ID="{39BA1EF0-3318-47DF-B54B-CD3F3541F52C}" WorkUnitID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Crickets" ID="{34FC581A-6823-4A46-B2AD-278505E332A1}" WorkUnitID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

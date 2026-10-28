@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d363512600acba9409bd45a65fb0204b, type: 3}
+  m_Name: 752F2C9B-A9A3-4268-8CC8-976F8394F87D
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Play_ClubBoom
+  id: 4112196171
+  guid: 752F2C9B-A9A3-4268-8CC8-976F8394F87D
+  IsInUserDefinedSoundBank: 1

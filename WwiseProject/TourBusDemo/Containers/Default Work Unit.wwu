@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B586B298-1719-423D-836A-630C488F6EDF}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{B586B298-1719-423D-836A-630C488F6EDF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Tourbus_Music" ID="{D2A8F293-7E42-46E9-AD12-F5B8793B4E76}" ShortID="858975524">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0D6F4EDE-DC07-44D0-80D6-A60EEEC1F578}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3E5C1B1-072C-44AF-9C08-B0E35CDFF0F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Tourbus_Music" ID="{B5AC3DC9-25C1-4734-B4F7-3953DC26D552}">
+							<Language>SFX</Language>
+							<AudioFile>Tourbus_Music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="149791950"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="BRS_Atmos_Forest_Evening_Crickets-Birds_Distant_Frogs" ID="{8F809912-880F-44DA-86EA-59FD26BFAF56}">
+							<Language>SFX</Language>
+							<AudioFile>BRS_Atmos_Forest_Evening_Crickets-Birds_Distant_Frogs.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1051656000"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="CarDriveBy_S08TM_6" ID="{085CA7D1-F3DE-4D32-8386-617849F93AA5}">
+							<Language>SFX</Language>
+							<AudioFile>CarDriveBy_S08TM.6.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="771574001"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="CarEngineRev_BW_52087" ID="{EC0409FA-195F-4498-8018-B27EF7FDC66E}">
+							<Language>SFX</Language>
+							<AudioFile>CarEngineRev_BW.52087.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="816948106"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="FF_HN_ambience_club_beat_muffled_outside_building" ID="{96AA6407-3CED-445E-A676-007819AF739F}">
+							<Language>SFX</Language>
+							<AudioFile>FF_HN_ambience_club_beat_muffled_outside_building.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="611194267"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="SS_FIP_104_fx_loop_kit07_bjorn_happy_crowd_cheering_g" ID="{3486C5CB-EDD8-4F97-9263-3342D6D8AE31}">
+							<Language>SFX</Language>
+							<AudioFile>SS_FIP_104_fx_loop_kit07_bjorn_happy_crowd_cheering_g.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="824479583"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="Tourbus_Music" ID="{1265AFE8-C477-4A8D-B085-0C558FE90026}">
+							<Language>SFX</Language>
+							<AudioFile>Tourbus_Music.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="149791950"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Tourbus_Music" ID="{1265AFE8-C477-4A8D-B085-0C558FE90026}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Crickets" ID="{D7BBE748-34FD-4861-9C72-12FBF4CFEF65}" ShortID="677123304">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0D6F4EDE-DC07-44D0-80D6-A60EEEC1F578}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3E5C1B1-072C-44AF-9C08-B0E35CDFF0F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BRS_Atmos_Forest_Evening_Crickets-Birds_Distant_Frogs" ID="{678B2B26-D0BC-4C7C-9DD3-1EBCDBFE36BC}">
+							<Language>SFX</Language>
+							<AudioFile>BRS_Atmos_Forest_Evening_Crickets-Birds_Distant_Frogs.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="229077073"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{6D40C73F-6418-4034-A029-9E3523853A0E}" ShortID="587116310">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+										<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="BRS_Atmos_Forest_Evening_Crickets-Birds_Distant_Frogs" ID="{678B2B26-D0BC-4C7C-9DD3-1EBCDBFE36BC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CarDrive" ID="{B3282B8D-1E66-43C3-B691-5530CB163712}" ShortID="620508412">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-30</Value>
+							</ValueList>
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{599B36B6-6EDC-4366-BD6F-FE7BDDEAD228}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="900"/>
+											<Property Name="Min" Type="Real64" Value="-875"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0D6F4EDE-DC07-44D0-80D6-A60EEEC1F578}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3E5C1B1-072C-44AF-9C08-B0E35CDFF0F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CarDriveBy_S08TM_6" ID="{B9C7AFFD-A74B-4651-9022-3E3EE81B95A4}">
+							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.83425"/>
+								<Property Name="LoopBegin" Type="Real64" Value="0"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>CarDriveBy_S08TM.6.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="989212099"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{0A28583F-0F48-45FF-A500-34B18811E480}" ShortID="504800884">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+										<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="CarDriveBy_S08TM_6" ID="{B9C7AFFD-A74B-4651-9022-3E3EE81B95A4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CarRev" ID="{30C03653-9021-4A8F-8387-1B663EDD146F}" ShortID="627700766">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{6AE657A1-2122-47B2-BB75-B606D0D74859}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="700"/>
+											<Property Name="Min" Type="Real64" Value="-625"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-28</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0D6F4EDE-DC07-44D0-80D6-A60EEEC1F578}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3E5C1B1-072C-44AF-9C08-B0E35CDFF0F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="CarEngineRev_BW_52087" ID="{291A8539-80C8-45FD-80F4-75E0F1D11659}">
+							<Language>SFX</Language>
+							<AudioFile>CarEngineRev_BW.52087.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="426654130"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{AAC20A47-5A21-4EF5-A447-33F8AE0D2659}" ShortID="563224737">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+										<ObjectRef Name="Low_Pass_20KHz" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+							<EffectSlot Name="" ID="{89A913A5-884F-49EB-8B4D-C0CDFAAB4E23}" ShortID="223115170">
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+										<ObjectRef Name="Underground_Parking1" ID="{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="CarEngineRev_BW_52087" ID="{291A8539-80C8-45FD-80F4-75E0F1D11659}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ClubBoom" ID="{D72827DF-94BA-4F96-A67B-AEFC62BDB890}" ShortID="1069377190">
+					<PropertyList>
+						<Property Name="Lowpass" Type="int16">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{58C3CBA6-7572-4D2F-8E3F-51B25BBB080E}">
+										<PropertyList>
+											<Property Name="Max" Type="Real64" Value="98"/>
+											<Property Name="Min" Type="Real64" Value="-80"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{0AF240DA-8516-44F1-B57D-00C868C25752}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="575"/>
+											<Property Name="Min" Type="Real64" Value="-300"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-28</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0D6F4EDE-DC07-44D0-80D6-A60EEEC1F578}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3E5C1B1-072C-44AF-9C08-B0E35CDFF0F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="FF_HN_ambience_club_beat_muffled_outside_building" ID="{7640287F-0BEC-4FEE-9419-AAE5E9EA4D46}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="3.40497"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="3.35623"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>FF_HN_ambience_club_beat_muffled_outside_building.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="495976246"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="FF_HN_ambience_club_beat_muffled_outside_building" ID="{7640287F-0BEC-4FEE-9419-AAE5E9EA4D46}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Crowd" ID="{627DFB0A-AD3C-4836-8839-EC70B3B4C0D8}" ShortID="736542076">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{B8D7D5FD-5348-4791-B64A-8689498AFF87}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="500"/>
+											<Property Name="Min" Type="Real64" Value="-400"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-5</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{0D6F4EDE-DC07-44D0-80D6-A60EEEC1F578}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A3E5C1B1-072C-44AF-9C08-B0E35CDFF0F2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="SS_FIP_104_fx_loop_kit07_bjorn_happy_crowd_cheering_g" ID="{99A2B877-D78F-4525-992E-0DCB166BF4BA}">
+							<Language>SFX</Language>
+							<AudioFile>SS_FIP_104_fx_loop_kit07_bjorn_happy_crowd_cheering_g.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="197472695"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<EffectSlot Name="" ID="{EE8478FD-2513-4C76-B9E5-1927D3A2F353}" ShortID="751513886">
+								<PropertyList>
+									<Property Name="Render" Type="bool" Value="True"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="Effect" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+										<ObjectRef Name="Club_Music_Distant_01" ID="{972799F5-C6E5-4E4F-83E3-95AA307CDFD1}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+									</Reference>
+								</ReferenceList>
+							</EffectSlot>
+						</ObjectList>
+						<ObjectList Name="RTPC">
+							<RTPC Name="" ID="{F2B53096-1BA6-4DD1-B7ED-63C48DEC8B21}" ShortID="381322456">
+								<PropertyList>
+									<Property Name="PropertyName" Type="string" Value="Volume"/>
+								</PropertyList>
+								<ReferenceList>
+									<Reference Name="ControlInput">
+										<ObjectRef Name="CrowdVolume" ID="{7D2C052D-B9C0-4892-B465-FDF29E0C354D}" WorkUnitID="{6E79D7B9-C6A0-455B-85EB-DE3D5D570187}"/>
+									</Reference>
+									<Reference Name="Curve">
+										<Custom>
+											<Curve Name="" ID="{225A7F15-333E-42F9-A874-C307FAA8C8BB}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>70</XPos>
+														<YPos>-3.41854</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</Custom>
+									</Reference>
+								</ReferenceList>
+							</RTPC>
+						</ObjectList>
+					</ObjectLists>
+					<ActiveSourceList>
+						<ActiveSource Name="SS_FIP_104_fx_loop_kit07_bjorn_happy_crowd_cheering_g" ID="{99A2B877-D78F-4525-992E-0DCB166BF4BA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

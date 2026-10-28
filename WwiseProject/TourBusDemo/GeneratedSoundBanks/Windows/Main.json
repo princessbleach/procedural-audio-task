@@ -1,0 +1,203 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{A77ADA59-60BB-468D-A045-A7B0DB103373}",
+    "Language": "SFX",
+    "Hash": "{EAD48ECD-A30A-9B06-36B2-FA33774177D7}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "149791950",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Tourbus_Music.wav",
+      "CachePath": "DF/{DF165080-6F82-3162-C672-184CB9191726}.wem"
+     },
+     {
+      "Id": "197472695",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SS_FIP_104_fx_loop_kit07_bjorn_happy_crowd_cheering_g.wav",
+      "CachePath": "EF/{EF566780-3618-201E-0FA4-E3488571705A}.wem"
+     },
+     {
+      "Id": "229077073",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "BRS_Atmos_Forest_Evening_Crickets-Birds_Distant_Frogs.wav",
+      "CachePath": "AF/{AF1697B0-157A-4666-92F8-6E9F70BE2CED}.wem"
+     },
+     {
+      "Id": "426654130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarEngineRev_BW.52087.wav",
+      "CachePath": "ED/{ED29D4AA-BA32-D5AD-D040-9C72488D1B4E}.wem"
+     },
+     {
+      "Id": "495976246",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "FF_HN_ambience_club_beat_muffled_outside_building.wav",
+      "CachePath": "66/{66779BEA-8AA2-79DC-C91B-C886EC3463D0}.wem"
+     },
+     {
+      "Id": "989212099",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "CarDriveBy_S08TM.6.wav",
+      "CachePath": "C5/{C512470B-2012-F09C-C355-5C8E038B482E}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "2098638826",
+       "Name": "Underground_Parking1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Underground_Parking1",
+       "GUID": "{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2580525600",
+      "Name": "Play_CarDrive",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CarDrive",
+      "GUID": "{E496E8FC-78F8-4602-B1AE-69F11E6A761E}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.025467",
+      "DurationMax": "30.737638",
+      "MediaRefs": [
+       {
+        "Id": "989212099"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3066007687",
+      "Name": "Play_CarRev",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CarRev",
+      "GUID": "{F5B7CE4F-82E9-4699-A9A1-2A856D8181CE}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.2389715",
+      "DurationMax": "4.813221",
+      "MediaRefs": [
+       {
+        "Id": "426654130"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        },
+        {
+         "Id": "2098638826"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "4112196171",
+      "Name": "Play_ClubBoom",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ClubBoom",
+      "GUID": "{752F2C9B-A9A3-4268-8CC8-976F8394F87D}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.711822",
+      "DurationMax": "9.46838",
+      "MediaRefs": [
+       {
+        "Id": "495976246"
+       }
+      ]
+     },
+     {
+      "Id": "2626596706",
+      "Name": "Play_Crickets",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crickets",
+      "GUID": "{34FC581A-6823-4A46-B2AD-278505E332A1}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "229077073"
+       }
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1008402193"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "639442169",
+      "Name": "Play_Crowd",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crowd",
+      "GUID": "{39BA1EF0-3318-47DF-B54B-CD3F3541F52C}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "197472695"
+       }
+      ]
+     },
+     {
+      "Id": "3038816511",
+      "Name": "Play_TourbusMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TourbusMusic",
+      "GUID": "{13FC0936-37DB-46A2-B6B5-F82356D7E9BD}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "149791950"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1427673546",
+      "Name": "CrowdVolume",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\CrowdVolume",
+      "GUID": "{7D2C052D-B9C0-4892-B465-FDF29E0C354D}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{10CD6433-FCCB-2CEF-28C5-6E612532A3EA}"
+ }
+}

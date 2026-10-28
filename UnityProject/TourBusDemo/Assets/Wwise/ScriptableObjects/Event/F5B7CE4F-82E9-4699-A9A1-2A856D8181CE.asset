@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d363512600acba9409bd45a65fb0204b, type: 3}
+  m_Name: F5B7CE4F-82E9-4699-A9A1-2A856D8181CE
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Play_CarRev
+  id: 3066007687
+  guid: F5B7CE4F-82E9-4699-A9A1-2A856D8181CE
+  IsInUserDefinedSoundBank: 1

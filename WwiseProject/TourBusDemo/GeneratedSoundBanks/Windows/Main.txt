@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	639442169	Play_Crowd			\Default Work Unit\Play_Crowd	
+	2580525600	Play_CarDrive			\Default Work Unit\Play_CarDrive	
+	2626596706	Play_Crickets			\Default Work Unit\Play_Crickets	
+	3038816511	Play_TourbusMusic			\Default Work Unit\Play_TourbusMusic	
+	3066007687	Play_CarRev			\Default Work Unit\Play_CarRev	
+	4112196171	Play_ClubBoom			\Default Work Unit\Play_ClubBoom	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1427673546	CrowdVolume			\Default Work Unit\CrowdVolume	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	149791950	Tourbus_Music	.cache\DF\{DF165080-6F82-3162-C672-184CB9191726}.wem		\Containers\Default Work Unit\Tourbus_Music		16934608
+	197472695	Crowd	.cache\EF\{EF566780-3618-201E-0FA4-E3488571705A}.wem		\Containers\Default Work Unit\Crowd		3256712
+	229077073	Crickets	.cache\AF\{AF1697B0-157A-4666-92F8-6E9F70BE2CED}.wem		\Containers\Default Work Unit\Crickets		18894944
+	426654130	CarRev	.cache\ED\{ED29D4AA-BA32-D5AD-D040-9C72488D1B4E}.wem		\Containers\Default Work Unit\CarRev		644192
+	495976246	ClubBoom	.cache\66\{66779BEA-8AA2-79DC-C91B-C886EC3463D0}.wem		\Containers\Default Work Unit\ClubBoom		1404580
+	989212099	CarDrive	.cache\C5\{C512470B-2012-F09C-C355-5C8E038B482E}.wem		\Containers\Default Work Unit\CarDrive		3499104
+

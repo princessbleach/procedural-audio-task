@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{FE537F52-57EA-49F3-8B0D-7E08A8ACFEEE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_TourbusMusic" ID="{13FC0936-37DB-46A2-B6B5-F82356D7E9BD}">
+					<ChildrenList>
+						<Action Name="" ID="{FA09E3DB-7653-4979-8FBC-52E45B46A640}" ShortID="47832143">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Tourbus_Music" ID="{D2A8F293-7E42-46E9-AD12-F5B8793B4E76}" WorkUnitID="{B586B298-1719-423D-836A-630C488F6EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crickets" ID="{34FC581A-6823-4A46-B2AD-278505E332A1}">
+					<ChildrenList>
+						<Action Name="" ID="{1390BA01-8456-4469-9716-0CEC21D2DD71}" ShortID="448794063">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crickets" ID="{D7BBE748-34FD-4861-9C72-12FBF4CFEF65}" WorkUnitID="{B586B298-1719-423D-836A-630C488F6EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crowd" ID="{39BA1EF0-3318-47DF-B54B-CD3F3541F52C}">
+					<ChildrenList>
+						<Action Name="" ID="{6EB4708A-BE4F-40D4-BDD3-C7D2E2846C49}" ShortID="1042731241">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crowd" ID="{627DFB0A-AD3C-4836-8839-EC70B3B4C0D8}" WorkUnitID="{B586B298-1719-423D-836A-630C488F6EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CarRev" ID="{F5B7CE4F-82E9-4699-A9A1-2A856D8181CE}">
+					<ChildrenList>
+						<Action Name="" ID="{8A71C7F4-E96B-4F35-8C08-1D27CB3C67D1}" ShortID="665220944">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CarRev" ID="{30C03653-9021-4A8F-8387-1B663EDD146F}" WorkUnitID="{B586B298-1719-423D-836A-630C488F6EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ClubBoom" ID="{752F2C9B-A9A3-4268-8CC8-976F8394F87D}">
+					<ChildrenList>
+						<Action Name="" ID="{D3920D4E-F798-4AD8-866E-37E232AD4AE4}" ShortID="1036964814">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ClubBoom" ID="{D72827DF-94BA-4F96-A67B-AEFC62BDB890}" WorkUnitID="{B586B298-1719-423D-836A-630C488F6EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CarDrive" ID="{E496E8FC-78F8-4602-B1AE-69F11E6A761E}">
+					<ChildrenList>
+						<Action Name="" ID="{631FD370-49FF-4D62-84A2-BFFB9EE0CD34}" ShortID="454686520">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CarDrive" ID="{B3282B8D-1E66-43C3-B691-5530CB163712}" WorkUnitID="{B586B298-1719-423D-836A-630C488F6EDF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
