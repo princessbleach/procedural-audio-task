@@ -7,7 +7,7 @@ Zoe Efstathiou
 
 ### Dev Log
 
-For this project, I chose to demonstrate procedural audio in Unity using Wwise. This is a prototype ambience which will later be used within our FMP. The area in the FMP is a stationary tour bus in the middle of a busy, music - filled city. The player can go here to see their inventory, view collectibles and more. For the purpose of this task, there are no visuals within Unity, just the procedural audio I have created. The dynamic ambience is made up of: looping music, looping crickets, sporadic car noises, crowd sounds and distant music playing. 
+For this project, I chose to demonstrate procedural audio in Unity using Wwise. This is a prototype ambience which will later be used within our FMP. The area in the FMP is a stationary tour bus in the middle of a busy, music - filled city. The player can go here to see their inventory, view collectibles and more. For the purpose of this task, there are no actual game visuals, just the procedural audio with UI to help aid understanding of what is happening. The dynamic ambience is made up of: looping music, looping crickets, sporadic car noises, crowd sounds and distant music playing. 
 
 I bean by creating Play events for each sound in Wwise and added them to a Sound bank that was generated and loaded in Unity. Music and cricket tracks were looped within Wwise and therefore just played on start within Unity. I added a high cut EQ effect within Wwise to the cricket SFX and adjusted it accordingly to muffle the noises as if they were outside.
 
